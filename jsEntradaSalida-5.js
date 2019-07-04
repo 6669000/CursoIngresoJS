@@ -4,10 +4,10 @@ function mostrar()
 {	
     var nombre;
     var edad;
-    nombre = prompt('su nombre es:')
-    document.getElementById ("elNombre").value = nombre;
-    edad = prompt()
-
     
+    nombre=document.getelementByID('elNombre').value;
+    edad=document.getelementByID('laEdad').value;
+     alert("usted se llama"+Nombre+"y tiene" +Edad+ "años");
+
 }
 
